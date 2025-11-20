@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Internal Styling - middle precedence -->
+    <style>
+        body, html {
+            text-align: center;
+        }
+        h1 {
+            background-color: rgba(67, 208, 212, 0.705);
+            background-color: rgba(137, 43, 226, 0.572);
+        }
+        p {
+            background-color: rgba(63, 61, 61, 0.425);
+            color: blue;
+        }
+    </style>
+    <!-- Linking the external stylesheet -->
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+  <body>
+    <nav id="navBar" class="specialStyling">
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+    </nav>
+
+    <!-- Inline Styling - Highest precedence -->
+    <h1 style="color: blue">Vanessas Application</h1>
+    <p style="color: red;">Red Paragraph</p>
+
+
+    <section class="specialStyling">
+        <h2>
+            Section 2 Starts Here
+        </h2>
+    </section>
+
+
+  </body>
+</html>

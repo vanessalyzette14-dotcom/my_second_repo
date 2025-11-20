@@ -1,0 +1,17 @@
+/* External Stylesheet has the lowest precedence */
+body {
+    background-color: rgba(0, 128, 0, 0.505);
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+#navBar{
+    border: 4px dotted red;
+}
+
+.specialStyling{
+    background-color: rgba(255, 0, 0, 0.538);
+}
