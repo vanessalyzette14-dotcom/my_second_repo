@@ -12,6 +12,7 @@ nav li:hover {
     background-color: green;
     font-size: 2rem;
 }
+
 #navBar{
     border: 4px dotted red;
 }
