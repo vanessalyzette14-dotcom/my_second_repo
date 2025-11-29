@@ -8,15 +8,58 @@ nav li {
     display: inline;
 }
 
+/* Pseudo Classes are represented with ONE colon */
 nav li:hover {
     background-color: green;
     font-size: 2rem;
 }
 
-#navBar{
+#navBar {
     border: 4px dotted red;
 }
 
-.specialStyling{
+.specialStyling {
     background-color: rgba(255, 0, 0, 0.538);
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+p:last-child {
+    background: pink;
+}
+
+li:nth-child(1) {
+    color: blue;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:nth-child(3) {
+    color: orange;
+}
+
+#pseudo::first-letter{
+    background-color:black;
+    color:white;
+    font-size: 3rem;
 }
